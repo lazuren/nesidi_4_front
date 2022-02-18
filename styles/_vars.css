@@ -1,0 +1,19 @@
+:root {
+	--dark: #1E2126;
+	--white: #FFF;
+	--primary: #1584EA;
+	--accent-orange: #F43F11;
+	--accent-green: #01CE96;
+	--accent-yellow: #FFC351;
+	--light: #F4F8FC;
+	--gray-ultra: #3D464D;
+	--gray-middle: #4D5962;
+	--gray-normal: #BAC2CD;
+	--gray-lite: #CAD1DB;
+	--font-regular: museosansregular, sans-serif;
+	--font-medium: museosansmedium, sans-serif;
+	--font-light: museosanslight, sans-serif;
+	--font-bold: museosansbold, sans-serif;
+	--font-black: museosansblack, sans-serif;
+	--shadow: 0 5px 20px rgb(0 0 0 / 15%);
+}

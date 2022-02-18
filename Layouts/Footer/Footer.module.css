@@ -1,0 +1,55 @@
+.footer {
+	display: grid;
+	row-gap: 25px;
+	grid-template-columns: auto minmax(320px, 1296px) auto;
+	grid-template-areas:
+		". info ."
+		"primaryLine primaryLine primaryLine";
+}
+
+.info {
+	display: grid;
+	gap: 25px;
+	grid-area: info;
+
+	grid-template-columns: repeat(1fr, 3);
+	grid-template-areas: "block1 block2 block3";
+}
+
+.block1 {
+	grid-area: block1;
+}
+
+.block2 {
+	grid-area: block2;
+}
+
+.block3 {
+	grid-area: block3;
+}
+
+.primaryLine {
+	display: grid;
+
+	padding: 15px;
+
+	color: var(--gray-normal);
+
+	background-color: var(--primary);
+	grid-area: primaryLine;
+
+	grid-template-columns: 1fr auto;
+	grid-template-areas: "copyright dev";
+}
+
+.copyright {
+	grid-area: copyright;
+}
+
+.dev {
+	grid-area: dev;
+}
+
+.dev a {
+	color: var(--gray-normal);
+}

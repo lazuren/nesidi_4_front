@@ -1,20 +1,31 @@
+@import url("_libs.css");
+@import url("_fonts.css");
+@import url("_vars.css");
+
+* {
+	box-sizing: border-box;
+}
+
 html,
 body {
-	margin: 0;
-	padding: 0;
+	height: 100%;
+}
 
-	font-family:
-		-apple-system,
-		Roboto,
-		sans-serif;
+body {
+	position: relative;
+
+	overflow-x: hidden;
+
+	min-width: 320px;
+
+	opacity: 1;
+	color: var(--dark);
+
+	font-family: var(--font-regular);
+	font-size: 16px;
+	line-height: 1.65;
 }
 
 a {
 	text-decoration: none;
-
-	color: inherit;
-}
-
-* {
-	box-sizing: border-box;
 }

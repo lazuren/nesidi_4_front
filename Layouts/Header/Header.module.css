@@ -1,0 +1,57 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: auto minmax(320px, 1296px) auto;
+	grid-template-areas:
+		"topLine_BG topLine_BG topLine_BG"
+		". logoSerachContact_BG ."
+		"primaryLine_BG primaryLine_BG primaryLine_BG";
+}
+
+.topLine_BG {
+	display: grid;
+
+	padding: 7px 0;
+	grid-area: topLine_BG;
+	grid-template-columns: auto minmax(320px, 1296px) auto;
+	grid-template-areas: ". topLine .";
+
+	background-color: var(--light);
+}
+
+.topLine {
+	display: grid;
+	grid-area: topLine;
+	grid-template-columns: 1fr auto;
+	grid-template-areas: "location links";
+
+	font-family: var(--font-medium);
+	font-size: 14px;
+}
+
+.location {
+	grid-area: location;
+}
+
+.location p {
+	display: inline;
+
+	cursor: pointer;
+}
+
+.location p:hover,
+.location p:hover svg {
+	color: var(--primary);
+	fill: var(--primary);
+}
+
+.links {
+	grid-area: links;
+}
+
+.logoSerachContact_BG {
+	grid-area: logoSerachContact_BG;
+}
+
+.primaryLine_BG {
+	grid-area: primaryLine_BG;
+}

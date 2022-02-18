@@ -1,0 +1,33 @@
+.list {
+	list-style: none;
+}
+
+.title {
+	margin: 0;
+
+	font-family: var(--font-bold);
+	font-size: 24px;
+}
+
+.list ul {
+	margin: 0;
+	padding-left: 10px;
+
+	list-style: none;
+
+	color: inherit;
+}
+
+.list p,
+.list a {
+	margin: 0;
+
+	color: inherit;
+
+	font-family: var(--font-medium);
+	font-size: 14px;
+}
+
+.list a:hover {
+	color: var(--primary);
+}

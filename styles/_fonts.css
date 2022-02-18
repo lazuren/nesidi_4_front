@@ -1,0 +1,69 @@
+@font-face {
+	font-family: museosansregular;
+	font-weight: normal;
+	font-style: normal;
+	src: url("../public/fonts/MuseoSans/MuseoSansRegular/MuseoSansRegular.eot");
+	src:
+		url("../public/fonts/MuseoSans/MuseoSansRegular/MuseoSansRegular.eot?#iefix")
+		format("embedded-opentype"),
+		url("../public/fonts/MuseoSans/MuseoSansRegular/MuseoSansRegular.woff")
+		format("woff"),
+		url("../public/fonts/MuseoSans/MuseoSansRegular/MuseoSansRegular.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: museosansmedium;
+	font-weight: normal;
+	font-style: normal;
+	src: url("../public/fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.eot");
+	src:
+		url("../public/fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.eot?#iefix")
+		format("embedded-opentype"),
+		url("../public/fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.woff")
+		format("woff"),
+		url("../public/fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: museosanslight;
+	font-weight: normal;
+	font-style: normal;
+	src: url("../public/fonts/MuseoSans/MuseoSansLight/MuseoSansLight.eot");
+	src:
+		url("../public/fonts/MuseoSans/MuseoSansLight/MuseoSansLight.eot?#iefix")
+		format("embedded-opentype"),
+		url("../public/fonts/MuseoSans/MuseoSansLight/MuseoSansLight.woff")
+		format("woff"),
+		url("../public/fonts/MuseoSans/MuseoSansLight/MuseoSansLight.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: museosansbold;
+	font-weight: normal;
+	font-style: normal;
+	src: url("../public/fonts/MuseoSans/MuseoSansBold/MuseoSansBold.eot");
+	src:
+		url("../public/fonts/MuseoSans/MuseoSansBold/MuseoSansBold.eot?#iefix")
+		format("embedded-opentype"),
+		url("../public/fonts/MuseoSans/MuseoSansBold/MuseoSansBold.woff")
+		format("woff"),
+		url("../public/fonts/MuseoSans/MuseoSansBold/MuseoSansBold.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: museosansblack;
+	font-weight: normal;
+	font-style: normal;
+	src: url("../public/fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack.eot");
+	src:
+		url("../public/fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack.eot?#iefix")
+		format("embedded-opentype"),
+		url("../public/fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack.woff")
+		format("woff"),
+		url("../public/fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack.ttf")
+		format("truetype");
+}
